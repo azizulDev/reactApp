@@ -1,9 +1,11 @@
+import Clock from './Components/Clock';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Hello World
+      <Clock />
     </div>
   );
 }
